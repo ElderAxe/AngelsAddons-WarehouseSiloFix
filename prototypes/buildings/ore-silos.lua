@@ -4,7 +4,7 @@ data:extend(
   {
     type = "item",
     name = "silo-buffer",
-    icon = "__angelsaddons-warehousesilofix__/graphics/icons/silo-log-buffer.png",
+    icon = "__AngelsAddons-WarehouseSiloFix__/graphics/icons/silo-log-buffer.png",
 	icon_size = 32,
 	flags = {"goes-to-quickbar"},
     subgroup = "angels-silos",
@@ -15,7 +15,7 @@ data:extend(
   {
     type = "logistic-container",
     name = "silo-buffer",
-    icon = "__angelsaddons-warehousesilofix__/graphics/icons/silo-log-buffer.png",
+    icon = "__AngelsAddons-WarehouseSiloFix__/graphics/icons/silo-log-buffer.png",
 	icon_size = 32,
     flags = {"placeable-player", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "silo-buffer"},
@@ -32,7 +32,7 @@ data:extend(
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     picture =
     {
-      filename = "__angelsaddons-warehousesilofix__/graphics/entity/silo-log-buffer.png",
+      filename = "__AngelsAddons-WarehouseSiloFix__/graphics/entity/silo-log-buffer.png",
       priority = "extra-high",
       width = 192,
       height = 192,
