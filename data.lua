@@ -28,3 +28,7 @@ if mods["angelsaddons-oresilos"] then
 	require("prototypes.recipes.ore-silos")
 	require("prototypes.technology.ore-silo-technology")
 end
+
+if data.raw['logistic-container']['angels-logistic-chest-storage'] then
+	data.raw['logistic-container']['angels-logistic-chest-storage'].logistic_slots_count = 1
+end

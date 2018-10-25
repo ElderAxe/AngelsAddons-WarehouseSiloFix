@@ -10,7 +10,7 @@
   "dependencies": [
 	"base >= 0.16.0",
 	"? angelsaddons-warehouses >= 0.3.0",
-	"? angelsaddons-oresilos >= 0.4.0"
+	"? angelsaddons-oresilos >= 0.4.0",
 	"? angelsindustries >= 0.1.0"
 	]
 }
