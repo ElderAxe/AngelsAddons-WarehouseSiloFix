@@ -1,15 +1,16 @@
 {
   "name": "AngelsAddons-WarehouseSiloFix",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "factorio_version": "0.16",
   "title": "Angel's Addons - Warehouse & Silo Fix",
   "author": "ElderAxe",
   "contact": "",
   "homepage": "https://github.com/ElderAxe/AngelsAddons-WarehouseSiloFix",
-  "description": "Adds buffer warehouse and buffer silo for Angel's mod. Also adds logistic filter for storage warehouse and storage silo",
+  "description": "Adds buffer warehouse and buffer silo for Angel's mod. Also adds logistic filter for storage warehouse, storage silo and big storage chest",
   "dependencies": [
 	"base >= 0.16.0",
 	"? angelsaddons-warehouses >= 0.3.0",
 	"? angelsaddons-oresilos >= 0.4.0"
+	"? angelsindustries >= 0.1.0"
 	]
 }
